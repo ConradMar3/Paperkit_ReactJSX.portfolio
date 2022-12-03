@@ -21,6 +21,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 // styles
 import "bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";

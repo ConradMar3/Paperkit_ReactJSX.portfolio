@@ -31,15 +31,18 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/triangle-dark.jpg") + ")"
+            "url(" + require("assets/img/Fibonacci-blue.jpg") + ")"
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Paper Kit React</h1>
-              <div className="fog-low">
+              <h1 className="presentation-title" text-size="2rem"><strong>Conrad Maré</strong></h1>
+              <div className="fog-low left">
+                <img alt="..." src={require("assets/img/fog-low.png")} />
+              </div>
+              <div className="fog-low left">
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>
               <div className="fog-low right">
@@ -47,8 +50,48 @@ function IndexHeader() {
               </div>
             </div>
             <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
+             Certified Web Developer - UI specialist, Web Design aimed at <strong>Clean, User friendly and most of all FUNCTIONALITY!</strong>
             </h2>
+            <h4 align="center"><strong>Full Stack Developer(Enrolled Student)</strong></h4>
+            <table align='center'>
+            <thead>
+            <ol>
+              <li>
+                <td>
+                  <tr>
+                  <h4>Curriculum:</h4>
+                  </tr>
+                </td>
+              </li>
+            </ol>
+            </thead>
+            <tbody>
+            <ul>
+              <li>
+              <td>
+              <tr>
+                Java_OCP1/OCP(Complete)
+                </tr>
+                </td>
+                </li>
+              <li>
+                <td>
+                  <tr>
+                JavaFx(Due)
+                  </tr>
+                </td>
+              </li>
+              <li>
+                <td>
+                  <tr>
+                SpringBoot: -javaFramework & reactFramework(Due)
+                  </tr>
+                </td>
+              </li>
+              
+            </ul>
+            </tbody>
+            </table>
           </Container>
         </div>
         <div
@@ -57,19 +100,19 @@ function IndexHeader() {
             backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
           }}
         />
-        <h6 className="category category-absolute">
-          Designed and coded by{" "}
-          <a
-            href="https://www.creative-tim.com?ref=pkr-index-page"
-            target="_blank"
-          >
-            <img
-              alt="..."
-              className="creative-tim-logo"
-              src={require("assets/img/creative-tim-white-slim2.png")}
-            />
-          </a>
-        </h6>
+         <div
+          className="moving-clouds"
+          style={{
+            backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
+          }}
+        />
+         <div
+          className="moving-clouds"
+          style={{
+            backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
+          }}
+        />
+       
       </div>
     </>
   );
